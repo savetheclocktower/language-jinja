@@ -1,0 +1,24 @@
+name: 'Jinja'
+scopeName: 'source.jinja'
+type: 'modern-tree-sitter'
+parser: 'tree-sitter-jinja2'
+
+injectionRegex: 'jinja2?'
+
+treeSitter:
+  parserSource: 'github:savetheclocktower/tree-sitter-jinja2#3b2bfef74c2cd741f99a8cba25a5bb703a94a05a'
+  grammar: 'tree-sitter/tree-sitter-jinja2.wasm'
+  highlightsQuery: 'tree-sitter/highlights.scm'
+  foldsQuery: 'tree-sitter/folds.scm'
+  indentsQuery: 'tree-sitter/indents.scm'
+
+fileTypes: [
+  'jinja',
+  'jinja2',
+  'j2'
+]
+
+comments:
+  start: '{# '
+  end: ' #}'
+  block: ['{#', '#}']
