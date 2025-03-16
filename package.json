@@ -1,20 +1,17 @@
 {
   "name": "language-jinja",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Pulsar language support for Jinja",
   "keywords": [
+    "tree-sitter"
   ],
   "repository": "https://github.com/savetheclocktower/language-jinja",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "keywords": [
-    "tree-sitter"
-  ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "consumedServices": {
     "hyperlink.injection": {
       "versions": {
