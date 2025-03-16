@@ -6,7 +6,7 @@ parser: 'tree-sitter-jinja2'
 injectionRegex: 'jinja2?'
 
 treeSitter:
-  parserSource: 'github:savetheclocktower/tree-sitter-jinja2#3b2bfef74c2cd741f99a8cba25a5bb703a94a05a'
+  parserSource: 'github:savetheclocktower/tree-sitter-jinja2#caa8e2e5ff5f08c5f3d9c174c07c5835721bc79a'
   grammar: 'tree-sitter/tree-sitter-jinja2.wasm'
   highlightsQuery: 'tree-sitter/highlights.scm'
   foldsQuery: 'tree-sitter/folds.scm'
