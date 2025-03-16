@@ -11,6 +11,7 @@ treeSitter:
   highlightsQuery: 'tree-sitter/highlights.scm'
   foldsQuery: 'tree-sitter/folds.scm'
   indentsQuery: 'tree-sitter/indents.scm'
+  tagsQuery: 'tree-sitter/tags.scm'
 
 fileTypes: [
   'jinja',
