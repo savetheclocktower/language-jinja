@@ -1,0 +1,25 @@
+'.source.jinja':
+  'raw block':
+    'prefix': 'raw'
+    'body': '{% raw %}\n\t$0\n{% endraw %}'
+  'for block':
+    'prefix': 'for'
+    'body': '{% for ${1:x} in ${2:y} %}\n\t$0\n{% endfor %}'
+  'if block':
+    'prefix': 'if'
+    'body': '{% if ${1:x} %}\n\t$0\n{% endif %}'
+  'else':
+    'prefix': 'else'
+    'body': '{% else %}$0'
+  'else if':
+    'prefix': 'elseif'
+    'body': '{% else if ${1:x} %}'
+  'macro block':
+    'prefix': 'macro'
+    'body': '{% macro ${1:x} %}\n\t$0\n{% endmacro %}'
+  'with block':
+    'prefix': 'with'
+    'body': '{% with ${x = y} %}\n\t$0\n{% endwith %}'
+  'filter block':
+    'prefix': 'filter'
+    'body': '{% filter ${x} %}\n\t$0\n{% endfilter %}'
