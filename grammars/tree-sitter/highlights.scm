@@ -34,6 +34,9 @@
     (with_end_statement)
     (block_start_statement)
     (block_end_statement)
+    (raw_start_statement)
+    (raw_end_statement)
+    (custom_statement)
   ] @meta.embedded.line.jinja
 )
 

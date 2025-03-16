@@ -18,7 +18,7 @@
   (filter_end_statement)
   (block_end_statement)
   (with_end_statement)
-] @indent
+] @dedent
 
 [
   (elif_statement)
